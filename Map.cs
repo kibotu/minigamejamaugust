@@ -23,6 +23,7 @@ namespace sheepgame
 		public int height;
 		public Tile[,] grid;
 		public List<Tile> occupiedTiles;
+		public List<Movement> currentMovements;
 		
 		public Map (int width, int height)
 		{
@@ -58,7 +59,7 @@ namespace sheepgame
 			this.occupiedTiles.Add (t);
 		}
 
-		public void MoveAll (Direction playerDirection)
+		public void StartMovement (Direction playerDirection)
 		{
 			// the player movement is special; if it fails, everything fails.
 			Movement playerMovement;
@@ -94,6 +95,11 @@ namespace sheepgame
 				}
 			}
 
+			this.currentMovements = movements;
+		}
+
+		public void FinishMovement()
+		{
 			// apply the moves
 			this.ClearGrid ();
 			foreach (Movement m in movements) {
@@ -104,6 +110,8 @@ namespace sheepgame
 					this.AddObject (m.NewX (), m.NewY (), o);
 				}
 			}
+
+			this.currentMovements = null;
 		}
 	}
 }
