@@ -73,6 +73,7 @@
      <None Include="Assets\Lux\Demos\02 Lux Terrain Demo\Nobiax Free Rocks\Nobiax Free Rocks.txt" />
      <None Include="Assets\Lux\Lux Shader\Parallax\Lux Bumped Specular Parallax.shader" />
      <None Include="Assets\Lux\Lux Shader\Nature\TreeCreator\LuxTreeCreatorLeafsOptimized.shader" />
+     <None Include="Assets\Forest Grounds - Terrain Texture Pack\Readme.txt" />
      <None Include="Assets\Lux\Lux Shader\Lux Bumped Specular.shader" />
      <None Include="Assets\Lux\Lux Shader\Lux Bumped Specular Metalness.shader" />
      <None Include="Assets\Lux\Lux Shader\Transparent\Lux Transparent Eye AO.shader" />
@@ -87,6 +88,7 @@
      <None Include="Assets\Lux\Lux Shader\Nature\TreeCreator\LuxTreeCreatorLeafsRendertex.shader" />
      <None Include="Assets\6by7\ProGrids\VersionInfo.txt" />
      <None Include="Assets\Lux\Lux Shader\VertexBlend\Lux VertexBlend Simple Bumped Spec .shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
      <None Include="Assets\Lux\Lux Shader\VertexBlend\_Lux VertexBlend Shader.txt" />
      <None Include="Assets\Lux\Lux Shader\VertexBlend\Lux VertexBlend Parallax Height Bumped Spec.shader" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
@@ -110,9 +112,11 @@
      <None Include="Assets\Lux\Lux Shader\Terrain\Details\_Lux Detail Shaders.txt" />
      <None Include="Assets\Lux\Lux Shader\LuxCore\LuxVertFunc.cginc" />
      <None Include="Assets\Lux\Lux Shader\AO_UsingUV2\Lux Bumped Specular AO_UV2.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
      <None Include="Assets\Lux\Lux Shader\LuxCore\Resources\Camera-DepthNormalTexture.shader" />
      <None Include="Assets\Lux\Demos\00 Shared assets\fontMaterialsetc\FontZtest.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
+     <None Include="Assets\Raw Mocap Data\Animations\_CompleteAnimationList.txt" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
      <None Include="Assets\Lux\Lux Shader\Human\Skin\_Lux Skin Shader.txt" />
@@ -122,8 +126,10 @@
      <None Include="Assets\Lux\Lux Shader\Terrain\Lux Terrain First Pass.shader" />
      <None Include="Assets\6by7\ProBuilder\Shader\DiffuseVertexColorEmission.shader" />
      <None Include="Assets\Lux\Lux Shader\Nature\TreeCreator\LuxTreeCreatorBarkOptimized.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
      <None Include="Assets\Lux\Lux Shader\Transparent\Lux Transparent Bumped Specular.shader" />
      <None Include="Assets\Lux\Lux Shader\Transparent\Lux Transparent Bumped Specular 2 Sided.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
      <None Include="Assets\Lux\Lux Shader\LuxCore\Resources\Camera-DepthTexture.shader" />
      <None Include="Assets\codeandweb.com\Readme.txt" />
      <None Include="Assets\Lux\Lux Shader\Lux Bumped Specular Materialtest.shader" />
